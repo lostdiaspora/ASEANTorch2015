@@ -7,20 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A62F604184155B800991555 /* help_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A62F602184155B800991555 /* help_20.png */; };
+		0A62F605184155B800991555 /* help_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A62F603184155B800991555 /* help_40.png */; };
+		0A62F608184169C700991555 /* BeforeLightUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A62F607184169C700991555 /* BeforeLightUp.m */; };
+		0A62F60B18416E0B00991555 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A62F60A18416E0B00991555 /* TextView.m */; };
+		0A62F60E18416E5200991555 /* BumpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A62F60D18416E5200991555 /* BumpView.m */; };
+		0A62F61118416E8900991555 /* TorchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A62F61018416E8900991555 /* TorchView.m */; };
 		0AE0A1A71840731A004FBA09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE0A1A61840731A004FBA09 /* UIKit.framework */; };
 		0AE0A1A91840731A004FBA09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE0A1A81840731A004FBA09 /* Foundation.framework */; };
 		0AE0A1AB1840731A004FBA09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE0A1AA1840731A004FBA09 /* CoreGraphics.framework */; };
 		0AE0A1B11840731A004FBA09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0A1AF1840731A004FBA09 /* InfoPlist.strings */; };
 		0AE0A1B31840731A004FBA09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0A1B21840731A004FBA09 /* main.m */; };
-		0AE0A1B71840731A004FBA09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0A1B61840731A004FBA09 /* AppDelegate.m */; };
+		0AE0A1B71840731A004FBA09 /* BumpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0A1B61840731A004FBA09 /* BumpAppDelegate.m */; };
 		0AE0A1B91840731A004FBA09 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0A1B81840731A004FBA09 /* Default.png */; };
 		0AE0A1BB1840731A004FBA09 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0A1BA1840731A004FBA09 /* Default@2x.png */; };
 		0AE0A1BD1840731A004FBA09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0A1BC1840731A004FBA09 /* Default-568h@2x.png */; };
 		0AE0A1C01840731A004FBA09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0A1BE1840731A004FBA09 /* MainStoryboard.storyboard */; };
-		0AE0A1C31840731A004FBA09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0A1C21840731A004FBA09 /* ViewController.m */; };
+		0AE0A1C31840731A004FBA09 /* TorchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0A1C21840731A004FBA09 /* TorchViewController.m */; };
+		0AE0A1CE18410F56004FBA09 /* libBump.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE0A1CD18410F56004FBA09 /* libBump.a */; };
+		0AE0A1D018410F93004FBA09 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE0A1CF18410F93004FBA09 /* CFNetwork.framework */; };
+		0AE0A1D218410FA7004FBA09 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE0A1D118410FA7004FBA09 /* CoreLocation.framework */; };
+		0AE0A1D418410FB1004FBA09 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE0A1D318410FB1004FBA09 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A62F602184155B800991555 /* help_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_20.png; sourceTree = "<group>"; };
+		0A62F603184155B800991555 /* help_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_40.png; sourceTree = "<group>"; };
+		0A62F606184169C700991555 /* BeforeLightUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeforeLightUp.h; sourceTree = "<group>"; };
+		0A62F607184169C700991555 /* BeforeLightUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeforeLightUp.m; sourceTree = "<group>"; };
+		0A62F60918416E0B00991555 /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		0A62F60A18416E0B00991555 /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		0A62F60C18416E5200991555 /* BumpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BumpView.h; sourceTree = "<group>"; };
+		0A62F60D18416E5200991555 /* BumpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BumpView.m; sourceTree = "<group>"; };
+		0A62F60F18416E8900991555 /* TorchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorchView.h; sourceTree = "<group>"; };
+		0A62F61018416E8900991555 /* TorchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorchView.m; sourceTree = "<group>"; };
+		0A62F6121841991200991555 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ASEANTorch2015/Fonts; sourceTree = "<group>"; };
 		0AE0A1A31840731A004FBA09 /* ASEANTorch2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASEANTorch2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE0A1A61840731A004FBA09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0AE0A1A81840731A004FBA09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,14 +50,19 @@
 		0AE0A1B01840731A004FBA09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AE0A1B21840731A004FBA09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AE0A1B41840731A004FBA09 /* ASEANTorch2015-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASEANTorch2015-Prefix.pch"; sourceTree = "<group>"; };
-		0AE0A1B51840731A004FBA09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0AE0A1B61840731A004FBA09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AE0A1B51840731A004FBA09 /* BumpAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BumpAppDelegate.h; sourceTree = "<group>"; };
+		0AE0A1B61840731A004FBA09 /* BumpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BumpAppDelegate.m; sourceTree = "<group>"; };
 		0AE0A1B81840731A004FBA09 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0AE0A1BA1840731A004FBA09 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0AE0A1BC1840731A004FBA09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0AE0A1BF1840731A004FBA09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0AE0A1C11840731A004FBA09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0AE0A1C21840731A004FBA09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AE0A1C11840731A004FBA09 /* TorchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TorchViewController.h; sourceTree = "<group>"; };
+		0AE0A1C21840731A004FBA09 /* TorchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TorchViewController.m; sourceTree = "<group>"; };
+		0AE0A1CC18410F56004FBA09 /* BumpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BumpClient.h; sourceTree = "<group>"; };
+		0AE0A1CD18410F56004FBA09 /* libBump.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBump.a; sourceTree = "<group>"; };
+		0AE0A1CF18410F93004FBA09 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0AE0A1D118410FA7004FBA09 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0AE0A1D318410FB1004FBA09 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +70,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE0A1D418410FB1004FBA09 /* AudioToolbox.framework in Frameworks */,
+				0AE0A1D218410FA7004FBA09 /* CoreLocation.framework in Frameworks */,
+				0AE0A1D018410F93004FBA09 /* CFNetwork.framework in Frameworks */,
 				0AE0A1A71840731A004FBA09 /* UIKit.framework in Frameworks */,
 				0AE0A1A91840731A004FBA09 /* Foundation.framework in Frameworks */,
 				0AE0A1AB1840731A004FBA09 /* CoreGraphics.framework in Frameworks */,
+				0AE0A1CE18410F56004FBA09 /* libBump.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +86,7 @@
 		0AE0A19A18407319004FBA09 = {
 			isa = PBXGroup;
 			children = (
+				0A62F6121841991200991555 /* Fonts */,
 				0AE0A1AC1840731A004FBA09 /* ASEANTorch2015 */,
 				0AE0A1A51840731A004FBA09 /* Frameworks */,
 				0AE0A1A41840731A004FBA09 /* Products */,
@@ -73,6 +104,9 @@
 		0AE0A1A51840731A004FBA09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AE0A1CF18410F93004FBA09 /* CFNetwork.framework */,
+				0AE0A1D118410FA7004FBA09 /* CoreLocation.framework */,
+				0AE0A1D318410FB1004FBA09 /* AudioToolbox.framework */,
 				0AE0A1A61840731A004FBA09 /* UIKit.framework */,
 				0AE0A1A81840731A004FBA09 /* Foundation.framework */,
 				0AE0A1AA1840731A004FBA09 /* CoreGraphics.framework */,
@@ -83,11 +117,20 @@
 		0AE0A1AC1840731A004FBA09 /* ASEANTorch2015 */ = {
 			isa = PBXGroup;
 			children = (
-				0AE0A1B51840731A004FBA09 /* AppDelegate.h */,
-				0AE0A1B61840731A004FBA09 /* AppDelegate.m */,
+				0A62F606184169C700991555 /* BeforeLightUp.h */,
+				0A62F607184169C700991555 /* BeforeLightUp.m */,
+				0A62F60F18416E8900991555 /* TorchView.h */,
+				0A62F61018416E8900991555 /* TorchView.m */,
+				0AE0A1B51840731A004FBA09 /* BumpAppDelegate.h */,
+				0AE0A1B61840731A004FBA09 /* BumpAppDelegate.m */,
+				0A62F60918416E0B00991555 /* TextView.h */,
+				0A62F60A18416E0B00991555 /* TextView.m */,
+				0A62F60C18416E5200991555 /* BumpView.h */,
+				0A62F60D18416E5200991555 /* BumpView.m */,
 				0AE0A1BE1840731A004FBA09 /* MainStoryboard.storyboard */,
-				0AE0A1C11840731A004FBA09 /* ViewController.h */,
-				0AE0A1C21840731A004FBA09 /* ViewController.m */,
+				0AE0A1CB18410F56004FBA09 /* libBump */,
+				0AE0A1C11840731A004FBA09 /* TorchViewController.h */,
+				0AE0A1C21840731A004FBA09 /* TorchViewController.m */,
 				0AE0A1AD1840731A004FBA09 /* Supporting Files */,
 			);
 			path = ASEANTorch2015;
@@ -96,6 +139,8 @@
 		0AE0A1AD1840731A004FBA09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A62F602184155B800991555 /* help_20.png */,
+				0A62F603184155B800991555 /* help_40.png */,
 				0AE0A1AE1840731A004FBA09 /* ASEANTorch2015-Info.plist */,
 				0AE0A1AF1840731A004FBA09 /* InfoPlist.strings */,
 				0AE0A1B21840731A004FBA09 /* main.m */,
@@ -105,6 +150,15 @@
 				0AE0A1BC1840731A004FBA09 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AE0A1CB18410F56004FBA09 /* libBump */ = {
+			isa = PBXGroup;
+			children = (
+				0AE0A1CC18410F56004FBA09 /* BumpClient.h */,
+				0AE0A1CD18410F56004FBA09 /* libBump.a */,
+			);
+			path = libBump;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +217,8 @@
 				0AE0A1BB1840731A004FBA09 /* Default@2x.png in Resources */,
 				0AE0A1BD1840731A004FBA09 /* Default-568h@2x.png in Resources */,
 				0AE0A1C01840731A004FBA09 /* MainStoryboard.storyboard in Resources */,
+				0A62F604184155B800991555 /* help_20.png in Resources */,
+				0A62F605184155B800991555 /* help_40.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +230,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE0A1B31840731A004FBA09 /* main.m in Sources */,
-				0AE0A1B71840731A004FBA09 /* AppDelegate.m in Sources */,
-				0AE0A1C31840731A004FBA09 /* ViewController.m in Sources */,
+				0AE0A1B71840731A004FBA09 /* BumpAppDelegate.m in Sources */,
+				0AE0A1C31840731A004FBA09 /* TorchViewController.m in Sources */,
+				0A62F608184169C700991555 /* BeforeLightUp.m in Sources */,
+				0A62F60B18416E0B00991555 /* TextView.m in Sources */,
+				0A62F60E18416E5200991555 /* BumpView.m in Sources */,
+				0A62F61118416E8900991555 /* TorchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +323,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASEANTorch2015/ASEANTorch2015-Prefix.pch";
 				INFOPLIST_FILE = "ASEANTorch2015/ASEANTorch2015-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ASEANTorch2015/libBump\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,7 +339,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASEANTorch2015/ASEANTorch2015-Prefix.pch";
 				INFOPLIST_FILE = "ASEANTorch2015/ASEANTorch2015-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ASEANTorch2015/libBump\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +368,7 @@
 				0AE0A1C81840731A004FBA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

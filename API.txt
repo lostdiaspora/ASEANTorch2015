@@ -1,0 +1,10 @@
+IP_ADDRESS/bump/cron?newGame=&mobilenumber=NNNNNNNNNNN
+JSON gameid
+IP_ADDRESS/bump/cron?addWord=&wordOne="BLA BLA BLA"&wordTwo="BLA BLA BLA"&game=THE_GAME_ID
+JSON notification=OK / NOK
+IP_ADDRESS/bump/cron?bump=&mobileNumber="MOBILE NUMBER"&lat="LATITUDE"&lon="LONGTITUDE"
+JSON notification=OK / NOK
+IP_ADDRESS/bump/cron?getBumps=&mobileNumber="MOBILE NUMBER"
+JSON noofbumps=NNN
+IP_ADDRESS/bump/cron?getWords=&game=THE_GAME_ID
+JSON story=abcedefsbkbvkvkldbvkjbdv

@@ -36,5 +36,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>proximanova-boldit-webfont.ttf</string>
+		<string>proximanova-extrabold-webfont.ttf</string>
+		<string>proximanova-light-webfont.ttf</string>
+		<string>proximanova-lightitalic-webfont.ttf</string>
+		<string>proximanova-regitalic-webfont.ttf</string>
+		<string>proximanova-regular-webfont.ttf</string>
+		<string>proximanova-regularitalic-webfont.ttf</string>
+		<string>proximanova-semibold-webfont.ttf</string>
+		<string>proximanova-semibolditalic-webfont.ttf</string>
+	</array>
 </dict>
 </plist>
